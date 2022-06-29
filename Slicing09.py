@@ -1,9 +1,10 @@
 def main(s):
     """
-    The s string variable is given. return the characters in the even position.
+    The s string variable is given. return the characters in the odd position.
     Args:
         s(str): parameter
     Returns:
         str: answer
     """
-    return
+    return s[::2]
+print(main("codeschooluz"))
