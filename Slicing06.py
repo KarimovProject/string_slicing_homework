@@ -7,8 +7,5 @@ def main(s,n):
     Returns:
         str: answer
     """
-    if n>0:
-        return s[n:] 
-    else:
-        return "notog'ri qiymat kiritildi"
+    return s[n:] 
 print(main("salom", 2))
