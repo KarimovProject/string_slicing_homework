@@ -8,4 +8,4 @@ def main(s,n):
         str: answer
     """
     return s[:-n]
-print(main("salom", 2))
+print(main("apple", 1))
